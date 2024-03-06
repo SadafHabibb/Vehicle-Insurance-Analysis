@@ -20,15 +20,12 @@ if app_mode == "Introduction":
 
   st.image("veh.jpeg", use_column_width=True)
   st.title("Introduction")
-  st.markdown("#### What is the relation between Health and Vehicle insurance?")
-
+   st.markdown("### Welcome to our Health Insurance Cross-Sell Dashboard!🏥🚗")
+  st.markdown("#### Wondering what is the relation between Health and Vehicle insurance?🤔")
+  st.markdown("Our company is a Health insurance company who is looking to improve their revenue model by expanding into a new sector: Vehicle Insurance.")
   st.markdown("##### Objectives")
-  st.markdown("We aim to see what factors contributes to the purchase of Vehicle insurance.")
-
-  st.markdown("Welcome to our Health Insurance Cross-Sell Dashboard!")
-  st.markdown("Did you know? Globally, approximately 55% of the population lacks access to essential health services.")
-  st.markdown("Furthermore, only 18% of the world's population has access to social security benefits that include health insurance coverage.")
-  st.markdown("Our dashboard aims to bridge this gap by providing personalized recommendations and insights to help individuals make informed decisions about their insurance needs.")
+  st.markdown("- Analyse the potential customer base for Vehicle Insurance.")
+  st.markdown("- Predict the selling price of Vehicle Insurance that will benefit the revenue model most.")
 
   num = st.number_input('No. of Rows', 5, 10)
 
